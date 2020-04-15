@@ -191,5 +191,27 @@
     <listener>
         <listener-class>classes.MyRequestListener</listener-class>
     </listener>
+
+    <servlet>
+        <servlet-name>CheckParamServlet</servlet-name>
+        <servlet-class>servlet.CheckParamServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckParamServlet</servlet-name>
+        <url-pattern>/servlet/check</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>testFilterServlet</servlet-name>
+        <servlet-class>servlet.TestFilterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testFilterServlet</servlet-name>
+        <url-pattern>/testFilter</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>
 
